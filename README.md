@@ -10,8 +10,3 @@
 </br>
 [![Languages](https://img.shields.io/badge/Languages-Javascript-purple.svg?style=flat)](https://github.com/sarakim323/leetcode)
 [![Author](https://img.shields.io/badge/Author-Sara%20Kim-ff69b4.svg?style=flat)](https://leetcode.com/yashitanamdeo/)
-
-## My Solutions
-| #    | Title                     | Topic            |      JS Solution                                                    | Difficulty    |
-|------|:--------------------------|:-----------------|:-------------------------------------------------------------------:|--------------:|
-| 13   | [Roman to integer](https://leetcode.com/problems/roman-to-integer/) | String   | [Solution](https://github.com/maatkara/LeetCode/blob/main/easy/roman_to_integer_13.py) |       Easy |
