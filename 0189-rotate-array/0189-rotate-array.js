@@ -4,12 +4,9 @@
  * @return {void} Do not return anything, modify nums in-place instead.
  */
 var rotate = function(nums, k) {
-    let length = nums.length;
-    let result = [...nums];
+    const len = nums.length;
+    k = (k % len);
     
-    for (let i = 0; i < length; i++) {
-        let index = (i + k) % length;
-        nums[index] = result[i];
-    };
-    return nums;
+    let end = nums.splice(len - k);
+    nums.splice(0, 0, ...end);
 };
