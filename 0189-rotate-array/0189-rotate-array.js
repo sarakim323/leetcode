@@ -11,4 +11,5 @@ var rotate = function(nums, k) {
         let index = (i + k) % length;
         nums[index] = result[i];
     };
+    return nums;
 };
