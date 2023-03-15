@@ -8,18 +8,16 @@ var canConstruct = function(ransomNote, magazine) {
         return false;
     }
     let storage = {};
-    let magazineLetters = [...magazine];
-    let ransomNoteLetters = [...ransomNote];
-    for (let i = 0; i < magazineLetters.length; i++) {
-        let current = magazineLetters[i];
+    for (let i = 0; i < magazine.length; i++) {
+        let current = magazine[i];
         if (storage[current]) {
             storage[current]++;
         } else {
             storage[current] = 1;
         }
     }
-    for (let j = 0; j < ransomNoteLetters.length; j++) {
-        let current = ransomNoteLetters[j];
+    for (let j = 0; j < ransomNote.length; j++) {
+        let current = ransomNote[j];
         if (storage[current] && storage[current] !== 0) {
             storage[current]--;
         } else {
